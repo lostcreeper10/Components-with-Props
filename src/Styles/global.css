@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0; 
+  background: linear-gradient(135deg, #fff8f0 0%, #ffe6cc 100%);
+}
+
+.center-ui {
+  min-height: 100vh;
+  background: #121212; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 48px 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cmp-product {
+  width: 300px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cmp-product:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.12);
+  background:  #dbdbdb;
+}
+
+.cmp-product_img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cmp-product h2 {
+  font-size: 22px;
+  color: #b22222; 
+  font-weight: bold;
+}
+
+.cmp-product_price {
+  color: #2e8b57; 
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.cmp-product_description {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #555;
+  flex-grow: 1; 
+}
+
+
+.cmp-button {
+  background: #ff4d00;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.cmp-button:hover {
+  background: #e04300;
+}
